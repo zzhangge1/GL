@@ -1,15 +1,21 @@
 # Copyright (c) 2018 Antoine Tran Tan
 #
 
-/
-!/**/*.cpp
-!/**/*.c
-!/**/*.hpp
-!/**/*.h
-!/**/*.md
-!/**/*.png
-!/**/*.gif
-!/**/*.jpg
-!/**/CMakeLists.txt
-/.vscode
+# Ignore everything
+*
+
+# Except certain file extensions
+!*.cpp
+!*.c
+!*.hpp
+!*.h
+!*.md
+!*.png
+!*.gif
+!*.jpg
+
+# ...even if they are in subdirectories
+!*/
+
+# ...but not in 'build' folder
 /build
