@@ -5,7 +5,7 @@ Dépôt pour les cours de GL à l'IUT de Cachan
 ## Organisation des dossiers
 
 * Dossier `include`
-* Dossier `source`
+* Dossier `src`
 
 ## Règles à respecter
 
