@@ -27,7 +27,7 @@ repo.
     * Appuyer sur `F1`, ensuite taper `clone`, choisissez `Git: Clone`
     * Coller l'URL dans le champ demandé
     * Sauvegarder quelque part (à l'IUT, ce sera dans votre dossier qui est
-    __C:\Travail__)
+    dans `C:\Travail`)
     * Cliquer sur `Open Repository`
  
 
