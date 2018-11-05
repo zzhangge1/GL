@@ -20,15 +20,15 @@ repo.
 ### Comment cloner localement votre repo
 
 * Récupérér le lien de votre dépôt :
-    ** Cliquer sur le bouton vert __Clone or download__ et copier l'URL
+    * Cliquer sur le bouton vert __Clone or download__ et copier l'URL
 
 * Cloner avec __Visual Studio Code__ :
-    ** Ouvrir Visual Studio Code
-    ** Appuyer sur `F1`, ensuite taper `clone`, choisissez `Git: Clone`
-    ** Coller l'URL dans le champ demandé
-    ** Sauvegarder quelque part (à l'IUT, ce sera dans votre dossier qui est
+    * Ouvrir Visual Studio Code
+    * Appuyer sur `F1`, ensuite taper `clone`, choisissez `Git: Clone`
+    * Coller l'URL dans le champ demandé
+    * Sauvegarder quelque part (à l'IUT, ce sera dans votre dossier qui est
     __C:\Travail__)
-    ** Cliquer sur `Open Repository`
+    * Cliquer sur `Open Repository`
  
 
 ### Branches, Commits, et Synchronisation
