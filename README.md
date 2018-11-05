@@ -1,6 +1,6 @@
 # Génie Logiciel
 
-Dépôt pour les cours de GL à l'IUT de Cachan
+Repo pour les cours de GL à l'IUT de Cachan
 
 ## Organisation des dossiers
 
@@ -43,5 +43,5 @@ la maison. Dans l'ordre, installer :
 * [CVI] (http://www.ni.com/lwcvi/download/f/)
 
 Ensuite, installer les extensions sur Visual Studio Code
-* Pour cela, cloner juste votre dépôt de projet sous Visual Studio Code
+* Pour cela, cloner juste votre repo sous Visual Studio Code
 * Accepter toutes les requêtes de Visual Studio Code.
