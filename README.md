@@ -13,7 +13,7 @@ Dépôt pour les cours de GL à l'IUT de Cachan
 repo.
 * Le projet CVI (fichier `.prj`) doit être sauvegardé dans le __repo local__.
 * Chaque fichier `.h` (ou `.hpp`) créé doit être placé dans le dossier `include`.
-* Chaque fichier `.c`(ou `.cpp`) créé doit être placé dans le dossier `source`.
+* Chaque fichier `.c`(ou `.cpp`) créé doit être placé dans le dossier `src`.
 
 ## Par où commencer
 
