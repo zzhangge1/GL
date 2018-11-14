@@ -5,5 +5,12 @@
 
 int main(void)
 {
+    unsigned long int S1 = 3,n = 6;
+    
+    while(n<9876)
+    {
+        S1 = S1 + n;
+        n = n + 3 ;
+    }
     return 0;
 }
