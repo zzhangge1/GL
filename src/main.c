@@ -12,6 +12,7 @@ int main(void)
     resultat = LancerDe();
     while (resultat != 1)
     {
+        resultat = LancerDe();
         if(resultat%2 ==0)
         {
             point = point + resultat ;
