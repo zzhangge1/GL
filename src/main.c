@@ -10,10 +10,10 @@ int main(void)
     
     for(i=0;i<100;i++)
     {
-        intialiserTirage();
         
         for(j=0;j<6;j++)
         {
+            intialiserTirage();
             gagnante[j] = tirerNumero();
             
             for(k=0;k<6,k++)
