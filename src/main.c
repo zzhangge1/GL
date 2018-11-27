@@ -20,20 +20,22 @@ int main(void)
 	
 	
      for(i=0;i<10;i++)
-      if(bin[i] < seuil)
+     {if(bin[i] < seuil)
          bin[i] = 0;
       else
          bin[i] = 1;
+     }
 	
 	
 	for (o=0;o<10;o++)
-	  sat[o] = rand(); 
+	{ sat[o] = rand(); 
 	if(sat[o] > seuilh)
 	  sat[o] = seuilh ;
 	else if (bin[o] < seuilb)
 	  sat[o] = seuilb  ;
 	else
           sat[o] = bin[o] ;
+	}
 		
 		
     
