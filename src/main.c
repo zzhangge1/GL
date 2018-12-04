@@ -6,7 +6,7 @@
 
 int main(void)
 {
-    unsigned short int i,j,k,gagnante[6],joueur[6]={1,20,3,36,15,43},commun;
+    unsigned short int i,j,k,gagnante[6],joueur[6]={1,20,3,36,15,43},commun,bestscore;
     
     for(i=0;i<100;i++)
     {
@@ -16,10 +16,14 @@ int main(void)
             intialiserTirage();
             gagnante[j] = tirerNumero();
             
-            for(k=0;k<6,k++)
+            for(k=0;k<6;k++)
             {
                 if(joueur[k] == gagnante[j]
                     commun++;
+                if (best_score < commun)
+                    best_score =commun;
+ 
+                
                
             }
         }
