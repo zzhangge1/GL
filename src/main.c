@@ -6,11 +6,13 @@
 
 int main(void)
 {
-    short int resultat,i = 0;
-    while (i<10)
-    {
-        resultat = LancerDe();
-        i++；
-    }
+    int resultat;
+    unsigned short code;
+    unsigned short i;
+    for(i = 0;i<10000;i++)
+        resultat = essayerCode(i);
+        if(resultat = 1)
+        afficherCodeAcces(i);
+    
     return 0;
 }
