@@ -15,11 +15,7 @@ int main (void)
 	anneau2 = saisir_anneau(0,9,2);
 	anneau3 = saisir_anneau(0,6,3);
 	
-	if(c>6)
-	R = -1;
-	
-    else 
-    {R = (10*a+b)*(uint16_t)pow(10,c);}
+    R = (10*anneau1+anneau2)*(uint16_t)pow(10,anneau3);}
 	
 	printf("La valeur est: %d",R);
 	
