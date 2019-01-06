@@ -8,9 +8,8 @@ long int saisir_anneau(long int val_min,long int val_max,long int num_anno)
 	
 	printf("Taper la valeur du premier anneau: ");
 	
-	while(condition == 0 )
-	{
-	   printf("%u",&valeur_saisie);
+	while(condition == 0)
+	   scanf("%u",&valeur_saisie);
 	   if(valeur_saisie >= val_min && valeur_saisie <= val_max)
 		   condition = 1;
 	   else 
